@@ -15,8 +15,6 @@ import java.util.concurrent.atomic.AtomicLongArray;
 // Stub
 public class PostRepository {
 
-    HttpServletResponse resp;
-
     private ConcurrentHashMap<Long, Post> allPosts = new ConcurrentHashMap(); // для хранения 'ключ-значение' всех постов
     AtomicLong counter = new AtomicLong(1);
 
